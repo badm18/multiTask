@@ -1,0 +1,27 @@
+.next {
+    position: absolute;
+    top: 50%;
+    right: -9%;
+    width: auto;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    fill: white;
+}
+.prev{
+    position: absolute;
+    top: 50%;
+    right: 103%;
+    width: auto;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    fill: white;
+}
+
+.next:hover,.prev:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.8);
+}

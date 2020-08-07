@@ -1,0 +1,22 @@
+.mb-3{
+    width: auto;
+}
+.listLabel{
+    display: flex;
+}
+.listValue{
+    margin-left:20px;
+}
+.deleteIcon{
+    margin-left:5px;
+}
+.deleteIcon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.mb-3,.checkbox:hover{
+    cursor: pointer;
+}
+.complited span{
+    text-decoration: line-through;
+}

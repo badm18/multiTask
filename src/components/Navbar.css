@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    margin-top: 20px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+#audioPlayer{
+    margin-left:5%;
+    width: 50%;
+}

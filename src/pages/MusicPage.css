@@ -1,0 +1,27 @@
+.songButton{
+    margin: auto 0px auto 0px;
+}
+.songsContainer{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.songNSinger{
+    margin: auto 0px auto 15px;
+}
+.songsName{
+    margin-bottom: 0px;
+}
+.addSong{
+    display: flex;
+    justify-content: flex-end;
+}
+#plus-icon:hover{
+    fill:gray;
+}
+
+.songsContainer:hover{
+   color:gray;
+   fill:gray;
+   cursor: pointer;
+}

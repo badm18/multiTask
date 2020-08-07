@@ -1,0 +1,48 @@
+.gallery{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.img-item{
+    width: 25%;
+    margin: 50px 20px auto auto;
+}
+.img{
+    width: 271px;
+    height: 167px;
+    box-sizing: border-box;
+    max-width: 100%;
+    opacity: 0.9;
+}
+.addPhotoBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.add-photo{
+    margin: 10px auto auto 90%;
+}
+.photoLength{
+    margin: auto
+}
+.prev{
+    transform: rotate(180deg);
+}
+
+.previewedPhoto{
+    height: 500px;
+}
+.add-photo:hover{
+    opacity: 0.6;
+}
+#plus-icon:hover{
+    cursor: pointer;
+
+}
+
+
