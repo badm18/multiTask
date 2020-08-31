@@ -4,7 +4,10 @@ import { Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom'
 import { AudioPlayer } from './AudioPlayer';
 
+
+
 const Navbar: React.FC = () => {
+
 
   return (
 <>
@@ -21,7 +24,7 @@ const Navbar: React.FC = () => {
       </Nav.Item>
       <AudioPlayer />
     </Nav>
-    
+   
 </>
   )
 
